@@ -15,6 +15,11 @@ function pagination_for_pages($getPagesQuery='sort_column=menu_order&sort_order=
 
 	// first, we'll query all pages with a similar parent	
 	$getPages = get_pages('child_of='.$post->post_parent.'&parent='.$post->post_parent .'&'.$getPagesQuery);
+	
+	// maybe our post type doesn't have a parent?
+	if (empty($getPages)) {
+		$getPages = get_posts('numberposts=-1&' . $getPagesQuery);
+	}
 
 	$count = 1;	
 

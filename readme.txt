@@ -6,7 +6,7 @@ Tested up to: 3.3
 Stable tag: trunk
 
 Easily create pagination type navigation between pages (or any other custom post type)
-
+ 
 == Description ==
 
 **Pagination for Pages** is a very simple plugin that creates navigation between pages (or any other custom post type) with the same parent.
