@@ -3,7 +3,7 @@
 Plugin Name: Pagination for Pages
 Plugin URI:  http://binarym.com/2011/pagination-for-pages/
 Description: Create pagination for pages (or any other custom post type).
-Version: 0.1
+Version: 0.1.1
 Author: Matt McInvale - BinaryM Inc.
 Author URI: http://binarym.com/ 
 */

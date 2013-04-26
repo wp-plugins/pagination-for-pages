@@ -1,8 +1,8 @@
 === Plugin Name ===
-Contributors: mcinvale
+Contributors: mcinvale, binarym
 Tags: pages, cms, awesome
 Requires at least: 2.7
-Tested up to: 3.3
+Tested up to: 3.5.1
 Stable tag: trunk
 
 Easily create pagination type navigation between pages (or any other custom post type)
